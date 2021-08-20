@@ -20,12 +20,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
 $(call inherit-product, device/xiaomi/virgo/virgo.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Shipping API level
-$(call inherit-product, vendor/lineage/build/target/product/product_launched_with_j_mr2.mk)
+#$(call inherit-product, vendor/lineage/build/target/product/product_launched_with_j_mr2.mk)
 
-PRODUCT_NAME := lineage_virgo
+PRODUCT_NAME := dot_virgo
 PRODUCT_DEVICE := virgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
