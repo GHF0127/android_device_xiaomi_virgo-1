@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_virgo.mk
+    $(LOCAL_DIR)/dot_virgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_virgo-user \
-    lineage_virgo-userdebug \
-    lineage_virgo-eng
+    dot_virgo-user \
+    dot_virgo-userdebug \
+    dot_virgo-eng
